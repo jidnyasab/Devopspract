@@ -1,0 +1,64 @@
+i will present about CRYPTOGRAPHY: KEY MANAGEMENT, DISTRIBUTION, AND USER AUTHENTICATION
+
+Cryptography is the study or a process of secure communications techniques that allow only the sender and intended recipient of a message to view its contents.So to prevent unauthorized access to information. 
+In the word Cryptography The prefix "crypt" means "hidden" and the suffix "graphy" means "writing". 
+
+next slide
+
+There are 4 features of Cryptography
+
+Confidentiality which means The information can only be accessed by the intended recipient and no one else can access it.  
+Integrity:The information cannot be altered in storage or transit between sender and intended receiver without the alteration being detected.
+
+Non-repudiation where creator / sender of the information cannot deny his intention to send the information later.
+
+Authentication ensures Sender and recipient identity verified also the location / source of information is verified.
+
+next slide
+
+Cryptography can be broken down into three different types:
+
+1)Secret Key Cryptography :
+Secret Key Cryptography, or symmetric cryptography, uses a single key to encrypt data. Both encrypting and deleting text translations with the corresponding scales use the same key, making this an easy way to encrypt.
+ 
+Examples are:
+AES Advanced Encryption Standard,DES  Data Encryption Standard.,Caesar Cipher
+
+2)Public Key Cryptography
+Public Key Cryptography, or asymmetric cryptography, uses two keys to encrypt data. if one key is used for encryption, the same key cannot decrypt the message, instead another key will be used.     
+
+3)Hash Functions
+Hash functions are non-reversible, one-way operations that protect data, at the cost of not being able to get the first message. Hashing is a method of converting a given thread into a fixed character unit.
+Some of the most famous hashing algorithms are:
+MD5,Whirlpool
+
+next slide
+
+key management
+Key management is the management of cryptographic keys in a cryptosystem. This includes dealing with the generation, exchange, storage, use, and replacement of keys
+There are 2 aspects for Key Management:
+ 
+1.Distribution of public keys - Public keys can be distributed in 4 ways
+
+2.Use of public-key encryption to distribute secrets.
+
+next slide
+
+User Authentication:
+ 
+User authentication is the process of verifying the identity of a user when that user logs into a computer system.
+The main purpose of authentication is to allow authorized users to access the computer and to prevent access to unauthorized users.
+Operating Systems generally identifies/authenticates users using the following 3 ways : 
+1st Passwords :
+
+2.Physical Identification :for example machine badges,cards or smart cards.
+
+3.Biometrics : which is based on different biological features  fingerprints, voice or face recognition
+
+4.th one is OTP One Time Passwords 
+
+
+
+
+Further my friend nirmiti will continue.
+ 

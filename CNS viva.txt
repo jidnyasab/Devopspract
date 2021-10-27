@@ -1,0 +1,96 @@
+Network Security 
+
+Pillars of Security : Confidentiality   
+CIA Tria              Intergrity
+                      Availibility
+Integrity : protecting info from unauthorized modification : integrity is enforced using Hashing 
+                                                             access control
+Security Threats : Untrained personal ,script kiddies ,hackers, insiders,nations,
+Security Vulnerabilities : Lack of Strong Passwords
+                           Lack of Malware removal tools
+                           Poor access controls                         
+Authorization : a way to determine what resource an entity can access
+Accountability : a way to record your actions
+                 user - identification athentication - authorization- Accountability record
+Non- Repudation : Someone cannot deny their actions later on
+STRIDE MODEL : SPOOFING - Someone tries to steal your identity - Secu property attacked : authenticity
+               TAMPERING - Unauthorization modification - Integrity
+               REPUDATION - denial of action - non-repudation
+               INFO DISCLOSURE - confidentiality
+               DENIAL OF SERVICE - services unavailable - availability
+               EVALUATION OF PRIVILEGE - attacker tries to get priviliages-authoriazation
+TYPES OF ATTACKS : ACTIVE-Disrupts the system by sending several manipulated inputs
+                   a) Replay Attack-replaying song-captures packets-stores-sends
+                   b) Denial of Services (DOS) Attack- Overloads the system-soln firewall
+                   c) Fabrication attack -alter the behaviour  of the system,email spoofing-soln redunduncy check
+
+                   PASSIVE-DOES NOT ALTER INFO & SILENTLY PERFORMS MALICIOUS ACTIVITIES-gathering of information to                                                                                          plan something
+                   a)Traffic Analysis
+                   b)Eavesdropping- is like over hearing someone
+OSI MODEL :         Open system interconnection 
+SECURITY SERVICES : Authentication ,access control, Data Confidentiality, Data interity, Non-repudiation
+
+NETWORK SECURITY MODEL(NSM) : physical-physical aspects router,switch-security alarms , guards CCTV
+                              VLAN  - 
+                              ACL Software User Administrative IT Department  
+
+ENCRYPTION TECHNIQUES : 1.SUBSTITUTION A)monoalphabetic -Ceaser cipher, b) Polyalphabetic-Vignere cipher
+                                                                 playfair-symmetric key
+                        2.TRANSPOSITION a)Keyed B)keyless
+                                        Hill cipher-linear algebra
+STEANOGRAPHY :      Hidding a message within another
+CRYPTOGRPHY  :       info is transformed                          steganography - info is hidden
+                   provides confidentilty,integrity                             only confidentiality
+
+Cryptography: Key Management ,Distribution & User Authentication
+
+METHODS OD ENCRYPTION : 1) Symmetric key based- encrypt de crypt same key 
+                        2) Asymmetric key based- 2 keys used 1 encrytptn decryptn ,Eg RSA
+SYMMETRIC ALGORITHM/CIPHER :1) Block cipher - info is broken in equal no of blocks ,eg DES AES RC5
+                            2) Stream cipher - work on one-bit at a time ,eg.RC4
+DATA eNCRYPTION TECHNIQUE (DES) :Symmetric key based block cipher for encrptn decryptn -block size 64 bits
+                                 Crptographic stenght low- key size 56 bits
+ADVANCE ENCRPTION TECNIQUE (AES) : Symmetric key based block cipher for encrptn decryptn -block size 128 bits
+                                   Crptographic stenght high- key size ,128 256 bits
+RC5(RIVEST CIPHER) :       BLOCK size 32,64
+EULIDS ALGORITHM :            GCD OF LARGE NOS.
+PUBLIC KEY CRYPTOGRAPHY :       2 KEYS ,private public
+RSA :           Asymmetric key based algoritm used for confidentiality ,integrity, non repudation 
+                Key leng  1024 -309    2048-617      4096 - 1233
+ 
+CRYPTOLYSIS : 1)Ciphertext only attack
+              2) known plain tecxt attack
+              3) Chosen plaintext attack   4)Chosen ciphertext attac
+              4) Differntial cryptolysis 6)Linear
+MESSAGE AUTHENTIFICATION FUNCTION :  1.HASHING - process finding  a unique message digest
+                                       Characteristics : one way only ,any leng input,fixed lenght output
+                                     2. Message Encryption  3. Message Authentification Code (MAC)
+HASH FUNCTIONS  :   SHA-1 -NOT Approved for use-Secure hash Algorithm 1 -cryptographic hash function produces 160                                                                              bit value for input
+                    SHA-2 - approved - 
+                    SHA-3 - approved -Secure hash Algorithm 3-most secure against collision
+MAC (MESSAGE AUTHENTICATION CODE) :  Confirms the message came from the stated sender & has nor been changed -protects                                      integrity and authenticity - keyed hash -three types oF MAC....
+HMAC (HASH MAC)          : Hashing func used as MAC to calcu MAC value -MD5,SHA-1 
+CBC MAC                  :   mess is encryp with symm block cipher in th CBC mode ,output of final block of ciphertext                              is used a MAC
+CMAC (CIPHER BASED MAC)  : symm block cipher encrption used as mac func to cal mac value
+
+DIGITAL SIGNATURE   : mathematical technique used to validate the authenticity and integrity of a message, software or digital document. 
+
+
+
+SNORT -
+PIK
+DIGITAL CERTIFICATE 
+DIGITAL SIGNATURE
+DOS ATTACK
+DDOS ATTACK
+IDS DIFF
+HONEY POT
+RSA - USING THINGS ACHIEVED 
+AES
+RSA
+PKL
+HOW MANY BLOCK CIPHERS
+
+
+                
+

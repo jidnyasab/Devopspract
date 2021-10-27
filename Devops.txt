@@ -1,0 +1,25 @@
+VIVA
+
+Agile is an iterative approach to project management and software development 
+DevOps LIFECYCLE : development” and “operations , combination of different phases of continuous software development,                     integration, testing, deployment, and monitoring. BEFORE waterfall model
+RAD (RAPID ACTION DEVELOPMENT)   :      HIGH SPEED ADAPTATION FOR WATERFALL MODEL.software can devlop in 60 to 90                                       days.
+Source code management (SCM) : used to track modifications to a source code repository. SCM tracks a running history                               of changes to a code base and helps resolve conflicts when merging updates from multiple                             contributors. SCM is also synonymous with Version control.
+Version control/ source control : practice of tracking and managing changes to software code. 
+WATERFALL  :    Each phase must be completed before the next phase can begin with no overlap between the phases.
+SCRUM :        framework that helps teams work together. 
+AGILE METHODOLOGY :project management framework, used by teams to iteratively and incrementally complete tasks and                     projects.
+ CONTAINER    :software to run reliably when moved from one computing environment to another
+CONTAINERIAZATION  : a form of operating system virtualization, through which applications are run in isolated user                      spaces called containers, all using the same shared operating system 
+DOCKER :    Open source containerization platform. It enables developers to package applications into containers
+version control system  :  Software tools that help software teams manage changes to source code over time.keeps track                             of every modification to the code in a special kind of database
+SSH   :  Secure Shell is a network communication protocol that enables two computers to communicate -provides password          or public-key based authentication and encrypts connections between two network endpoints. It is a secure          alternative to insecure file transfer methods
+master slave architecture  ;  model of asymmetric communication or control where one device or process controls one or                               more other devices or processes and serves as their communication hub -used to help s                                 tabilize a system
+Master-slave replication :enables data from one database server (the master) to be replicated to one or more other                           database servers (the slaves).
+GITHUB   :Git repository hosting service- Git is a command line tool, GitHub provides a Web-based graphical interface.               It also provides access control and several collaboration features, such as a wikis and basic task            management tools for every project.
+
+git --version   : To check the version of git
+git help config , git config --help : Provides manual or help page for command following it
+mkdir _____(directory name) : to create local directory
+git init : To create local directory
+git status : to see the status of directory
+git add 'filename' :  To add add file in the directory
